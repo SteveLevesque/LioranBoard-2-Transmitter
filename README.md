@@ -34,7 +34,7 @@ LB.getVariable(name, buttonId = 'global')
 LB.setVariable(name, value, buttonId = 'global')`
 ```
 - Set a variable
-- specify its button id or leave empty to create a global variable
+- specify its button id, FromButton or leave empty to create a global variable
 - example: `LB.setVariable('myVariable', 'Hello World', 'ID1')`
 
 ```js
